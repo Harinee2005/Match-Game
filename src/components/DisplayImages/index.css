@@ -1,0 +1,19 @@
+.images-lists {
+  height: 70px;
+  width: 70px;
+  margin: 5px;
+}
+
+.image-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .images-lists {
+    height: 120px;
+    width: 120px;
+    margin: 10px;
+  }
+}

@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.navbar-container {
+  margin-left: 0;
+  padding-left: 0;
+  margin: 0;
+}
+
+.thumbnail {
+  height: 200px;
+  width: 200px;
+}
+
+.tabs-list-container {
+  margin-left: 0;
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.images-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: 0;
+  padding-left: 0;
+  width: 100%;
+}
+
+.background-score {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .background {
+    padding: 26px;
+  }
+  .thumbnail {
+    height: 400px;
+    width: 500px;
+  }
+  .tabs-list {
+    font-size: 22px;
+    margin-right: 20px;
+  }
+  .images-container {
+    width: 70%;
+  }
+  .background-score {
+    padding: 50px;
+  }
+}

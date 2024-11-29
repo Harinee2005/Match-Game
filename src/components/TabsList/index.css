@@ -1,0 +1,26 @@
+.tab-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-family: 'Roboto';
+  color: #ffffff;
+  margin-right: 9%;
+  font-size: 16px;
+}
+
+.tabs-list {
+  list-style-type: none;
+}
+
+.HighlightButton {
+  border-bottom: 1px solid #fec653;
+  color: #fec653;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .tabs-list {
+    font-size: 22px;
+    margin-right: 20px;
+  }
+}

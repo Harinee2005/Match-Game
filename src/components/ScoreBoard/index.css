@@ -1,0 +1,102 @@
+.scoreboard-bg {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png');
+  height: 900px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; /* Ensures the full image is visible */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scoreboard-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.trophy {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 20px; 
+}
+
+.score-label {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #ffffff;
+  margin: 10px 0;
+}
+
+.score-value {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 20px 0; 
+}
+
+.replay-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px; 
+  background-color: #cf60c8;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 10px 20px; 
+  border-radius: 5px;
+  border: none;
+  cursor: pointer; 
+  margin-top: 20px; 
+}
+
+.replay-btn img {
+  height: 20px;
+  width: 20px;
+}
+
+.replay-btn p {
+  margin: 0; 
+}
+
+@media screen and (min-width: 768px) {
+  .scoreboard-bg {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+    width: 90%;
+    height: 1000px;
+  }
+
+  .scoreboard-content{
+    margin-top: 200px;
+  }
+
+  .trophy {
+    height: 300px;
+    width: 300px;
+    margin-bottom: 30px;
+  }
+
+  .score-label {
+    font-size: 25px;
+  }
+
+  .score-value {
+    font-size: 30px;
+    margin: 30px 0;
+  }
+
+  .replay-btn {
+    font-size: 16px;
+    padding: 15px 30px;
+  }
+
+  .replay-btn img {
+    height: 30px;
+    width: 30px;
+  }
+}
